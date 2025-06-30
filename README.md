@@ -113,4 +113,4 @@ Note: The current version of the repository includes a working simulation and an
 
 ---
 
-This project is a numerical continuation of my thesis, developed under the supervision of Dr. Alessandro Gruppuso, with the support of Simone Paradiso.
+This project is a numerical continuation of my thesis, developed under the supervision of Dr. Alessandro Gruppuso (INAF, OAS Bologna), with the support of Simone Paradiso (INAF, OAS Bologna).
