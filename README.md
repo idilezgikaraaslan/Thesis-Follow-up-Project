@@ -51,38 +51,38 @@ Key steps include:
 
    - **EB estimator chi-squared:**
      
-     ![chi2_EB](https://quicklatex.com/cache3/c7/ql_b47a51677d24c8fc792739d77b01fcc7_l3.png)
+     ![chi2_EB](chi-squared_EB.png)
      
 
    - **TB estimator chi-squared:**
      
-     ![chi2_TB](https://quicklatex.com/cache3/62/ql_9433e46330631e5e94c26e78ec703962_l3.png)
+     ![chi2_TB](chi-squared_TB.png)
 
 
    - **Joint (EB+TB) estimator chi-squared:**
   
-     ![chi2_joint](https://quicklatex.com/cache3/ed/ql_37a9212a4c7ff9abb18efa968cf0cfed_l3.png)
+     ![chi2_joint](chi-squared_joint.png)
   
      where the inverse covariance matrix is:
   
-     ![inv_cov_joint](https://quicklatex.com/cache3/2f/ql_e4ae3dccd64fea944854e888f933e02f_l3.png)
+     ![inv_cov_joint](cov_joint.png)
  
    The value of $\beta$ that minimizes each $\chi^2(\beta)$ is taken as the best-fit birefringence angle for that simulation.
 
-7. **Statistical Evaluation**  
+6. **Statistical Evaluation**  
    The best-fit $\beta$ from each simulation is collected. Their distribution is analyzed and compared to the analytical uncertainties derived in the thesis:
 
    - **EB estimator uncertainty:**
 
-     ![sigma_EB](https://quicklatex.com/cache3/24/ql_bffd835dba55abf4829f19b03c8b6a24_l3.png)
+     ![sigma_EB](uncertainty_EB.png)
 
    - **TB estimator uncertainty:**
 
-     ![sigma_TB](https://quicklatex.com/cache3/3f/ql_ba401d580f9703dde360143da1eb623f_l3.png)
+     ![sigma_TB](uncertainty_TB.png)
   
    - **Joint (EB+TB) estimator uncertainty:**
 
-     ![sigma_joint](https://quicklatex.com/cache3/63/ql_0e706f67eba0ba3cc4291d310b398b63_l3.png)
+     ![sigma_joint](uncertainty_joint.png)
 
 
   These theoretical values are compared to the standard deviation of the $\beta$ values estimated from simulations. The analysis also includes the joint estimator, which is dominated by the EB contribution but    benefits from the inclusion of TB information for completeness.
