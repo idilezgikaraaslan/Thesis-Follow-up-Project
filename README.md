@@ -85,14 +85,35 @@ Key steps include:
      ![sigma_joint](uncertainty_joint.png)
 
 
-  These theoretical values are compared to the standard deviation of the $\beta$ values estimated from simulations. The analysis also includes the joint estimator, which is dominated by the EB contribution but    benefits from the inclusion of TB information for completeness.
+  These theoretical values are compared to the standard deviation of the $\beta$ values estimated from simulations. The analysis also includes the joint estimator, which is dominated by the EB contribution but benefits from the inclusion of TB information for completeness.
 
 
 ---
 
 ## 📊 Results
 
-Note: The current version of the repository includes a working simulation and analysis pipeline, but the project is still in progress and the implementation is not yet complete. Both the coding and the scientific analysis are ongoing, and further improvements, refinements, and extensions are planned as the work continues. 
+The results from the simulations are in good agreement with the analytical predictions obtained from the uncertainty analysis of the cosmic birefringence angle, constructed using D-estimators based on CMB polarisation. Below, we present a comparison between simulation-based results and theoretical (analytical) expectations for an idealised scenario with full-sky coverage and no instrumental noise.
+
+Final $\sigma_\beta$ Constraints: Simulations vs. Analytical Predictions
+
+- EB Estimator
+
+   Simulation: $\sigma_\beta^{\mathrm{(EB)}} = 0.0015^\circ$
+
+   Analytical (up to $\ell_{\max}=1024$): $\sigma_\beta^{\mathrm{(EB)}} = 0.0016^\circ$
+
+- TB Estimator
+
+   Simulation: $\sigma_\beta^{\mathrm{(TB)}} = 0.0049^\circ$
+
+   Analytical (up to $\ell_{\max}=1024$): $\sigma_\beta^{\mathrm{(TB)}} = 0.0052^\circ$
+
+- Joint Estimator
+
+   Simulation: $\sigma_{\beta,\mathrm{joint}} = 0.0015^\circ$
+
+   Analytical (up to $\ell_{\max}=1024$): $\sigma_{\beta,\mathrm{joint}} = 0.0016^\circ$
+
 
 ---
 
@@ -107,9 +128,13 @@ Note: The current version of the repository includes a working simulation and an
 
 ## Future Work
 
-- Incorporate foreground residuals and instrumental noise
-- Apply to masked (cut-sky) simulations for realism
-- Extend analysis to Planck CMB polarization data
+Future work will extend this analysis to more realistic CMB scenarios by incorporating:
+
+- instrumental noise,
+
+- incomplete sky coverage, and
+
+- finite optical resolution.
 
 ---
 
