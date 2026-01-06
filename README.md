@@ -139,4 +139,4 @@ Future work will extend this analysis to more realistic CMB scenarios by incorpo
 ---
 ## Acknowledgment
 
-This project is a numerical continuation of my thesis, developed under the supervision of Dr. Alessandro Gruppuso (INAF, OAS Bologna) and Simone Paradiso (INAF, OAS Bologna).
+This project is a numerical continuation of my thesis, developed under the supervision of Dr. Alessandro Gruppuso (INAF, OAS Bologna) and Dr. Simone Paradiso (INAF, OAS Bologna).
