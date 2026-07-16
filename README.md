@@ -1,4 +1,4 @@
-# Master's Thesis Follow-up Project: Cosmic Birefringence Estimation with D-Estimators — A Numerical Extension
+# Master's Thesis Follow-up Project: Isotropic Cosmic Birefringence Angle Estimation with D-Estimators — A Numerical Extension
 
 This repository contains a Python-based numerical extension of my Master's thesis:
 
